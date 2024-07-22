@@ -1,0 +1,51 @@
+/* 헤더영역 */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans+KR:wght@100..900&display=swap');
+
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+h1,h2,h3,h4, .gugi-font{
+    font-family: "Gugi", sans-serif;
+}
+/* 네비게이션 영역 */
+nav-link:hover, .nav-link.active{
+    color:rgb(255, 217, 0)!important;
+}
+
+/* sns영역 */
+#sns-links{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url('../images/sns-bg.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+}
+/*뉴스영역*/
+#news{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.2)),url('../images/news-bg.jpg');
+    background-position:center;
+       
+    background-size:cover;
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .text {
+        font-size: 15px;
+    }
+}
+
+header{
+    background-image:linear-gradient(to top,rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url("../images/main-bg.jpg");
+    background-size:cover;
+    background-position:center top;
+    background-position:center;
+
+    
+}
+
+/* 서비스섹션 */
+.card-hover:hover{
+    background-color:#ffc10726;
+    cursor:pointer;
+}
+
